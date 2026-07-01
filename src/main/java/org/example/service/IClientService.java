@@ -8,7 +8,7 @@ import java.util.List;
 @Local
 public interface IClientService {
 
-    Long creerClient(Client client);
+    Client creerClient(Client client);
 
     Client consulterClient(Long id);
 

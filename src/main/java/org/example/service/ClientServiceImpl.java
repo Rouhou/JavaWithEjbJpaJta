@@ -9,7 +9,7 @@ import jakarta.inject.Inject;
 import java.util.List;
 
 @Stateless
-public class ClientServiceImpl {
+public class ClientServiceImpl implements IClientService {
 
     @EJB
     private IClientDao clientDao;

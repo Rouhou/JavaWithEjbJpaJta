@@ -8,7 +8,7 @@ import java.util.List;
 @Local
 public interface ICompteService {
 
-    Long creerCompte(Compte compte);
+    Compte creerCompte(Compte compte);
 
     Compte consulterCompte(Long id);
 

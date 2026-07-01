@@ -12,7 +12,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Stateless
-public class OperationServiceImpl {
+public class OperationServiceImpl implements IOperationService {
 
     @EJB
     private ICompteDao compteDao;

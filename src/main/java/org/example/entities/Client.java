@@ -1,5 +1,6 @@
 package org.example.entities;
 
+import jakarta.json.bind.annotation.JsonbDateFormat;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,6 +20,7 @@ public class Client {
     private String nom;
     private String prenom;
     private String telephone;
+    @JsonbDateFormat("dd-MM-yyyy")
     private LocalDate dateNaissance;
 
     public Client() {

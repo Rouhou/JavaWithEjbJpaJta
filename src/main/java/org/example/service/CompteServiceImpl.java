@@ -9,7 +9,7 @@ import jakarta.inject.Inject;
 import java.util.List;
 
 @Stateless
-public class CompteServiceImpl {
+public class CompteServiceImpl implements ICompteService {
 
     @EJB
     private ICompteDao compteDao;
